@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+
+header {
+  text-align: center;
+  background-color: lightblue;
+  border-bottom: 15px double #ce9c70;
+
+  /*flexbox for left centered logo... ie responsive layout w flexbox */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 1rem;
+}
+h1 {
+  margin: 0;
+  color: #ffffff;
+}
+nav ul {
+  list-style-type: none;
+  padding: 1rem;
+  margin: 0;
+
+  /* flexbox horizontal navbar */
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem; /* adds space btwn links */
+}
+nav a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #ce9c70;
+}
+
+body {
+  font-family: "Barlow";
+}
+
+.page {
+  background-color: lightblue;
+}
+
+.style-p {
+  background-color: #e7c096;
+  padding: 1rem;
+  border: 2px solid #4a65a2;
+  margin: 2rem;
+  width: 500px;
+}
+
+#back-to-top {
+  border: solid 1px white;
+  padding: 1 px;
+}
